@@ -1,0 +1,13 @@
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+
+spring:
+  application:
+    name: demo-service
+
+wavefront:
+  application:
+    name: beginner-friendly
