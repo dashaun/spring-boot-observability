@@ -1,5 +1,5 @@
-## Spring Boot Observability
-# Code and Slides for my SpringOne 2020 Session
+# Spring Boot Observability
+## Code and slides from SpringOne 2020 session
 
 ## Getting Started
 
