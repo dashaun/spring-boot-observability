@@ -1,0 +1,130 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <title>Spring Boot Observability</title>
+
+    <link rel="stylesheet" href="/reveal.js-3.9.2/css/reset.css">
+    <link rel="stylesheet" href="/reveal.js-3.9.2/css/reveal.css">
+    <link rel="stylesheet" href="/reveal.js-3.9.2/css/theme/black.css">
+
+    <!-- Theme used for syntax highlighting of code -->
+    <link rel="stylesheet" href="/reveal.js-3.9.2/lib/css/monokai.css">
+
+    <!-- Printing and PDF exports -->
+    <script>
+        var link = document.createElement( 'link' );
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = window.location.search.match( /print-pdf/gi ) ? '/reveal.js-3.9.2/css/print/pdf.css' : '/reveal.js-3.9.2/css/print/paper.css';
+        document.getElementsByTagName( 'head' )[0].appendChild( link );
+    </script>
+</head>
+<body>
+<div class="reveal">
+    <div class="slides">
+        <section data-markdown="/markdown/main.md"
+                 data-separator="^\n\n\n"
+                 data-separator-vertical="^\n\n"
+                 data-separator-notes="^Notes:"
+                 data-charset="utf8"
+                 data-background-image="img/205485-vmw-icn-pks-final.svg">
+        </section>
+        <section data-markdown="/markdown/introduction_short.md"
+                 data-separator="^\n\n\n"
+                 data-separator-vertical="^\n\n"
+                 data-separator-notes="^Notes:"
+                 data-charset="utf8"
+                 data-background-size="200px"
+                 data-background-position="top"
+                 data-background-image="img/205485-vmw-icn-pks-final.svg">
+        </section>
+        <section data-markdown="/markdown/my-story.md"
+                 data-separator="^\n\n\n"
+                 data-separator-vertical="^\n\n"
+                 data-separator-notes="^Notes:"
+                 data-charset="utf8">
+        </section>
+        <section data-markdown="/markdown/purpose-of-session.md"
+                 data-separator="^\n\n\n"
+                 data-separator-vertical="^\n\n"
+                 data-separator-notes="^Notes:"
+                 data-charset="utf8"
+                 data-background-size="200px"
+                 data-background-position="top"
+                 data-background-image="img/205485-vmw-icn-pks-final.svg">
+        </section>
+        <section data-markdown="/markdown/you-know-it-best.md"
+                 data-separator="^\n\n\n"
+                 data-separator-vertical="^\n\n"
+                 data-separator-notes="^Notes:"
+                 data-charset="utf8">
+        </section>
+        <section data-markdown="/markdown/pinpointing-is-hard.md"
+                 data-separator="^\n\n\n"
+                 data-separator-vertical="^\n\n"
+                 data-separator-notes="^Notes:"
+                 data-charset="utf8">
+        </section>
+        <section data-markdown="/markdown/oncall.md"
+                 data-separator="^\n\n\n"
+                 data-separator-vertical="^\n\n"
+                 data-separator-notes="^Notes:"
+                 data-charset="utf8">
+        </section>
+        <section data-markdown="/markdown/mission.md"
+                 data-separator="^\n\n\n"
+                 data-separator-vertical="^\n\n"
+                 data-separator-notes="^Notes:"
+                 data-charset="utf8">
+        </section>
+        <section data-markdown="/markdown/tracing-wavefront.md"
+                 data-separator="^\n\n\n"
+                 data-separator-vertical="^\n\n"
+                 data-separator-notes="^Notes:"
+                 data-charset="utf8">
+        </section>
+        <section data-markdown="/markdown/summary.md"
+                 data-separator="^\n\n\n"
+                 data-separator-vertical="^\n\n"
+                 data-separator-notes="^Notes:"
+                 data-charset="utf8">
+        </section>
+        <section data-markdown="/markdown/thanks.md"
+                 data-separator="^\n\n\n"
+                 data-separator-vertical="^\n\n"
+                 data-separator-notes="^Notes:"
+                 data-charset="utf8"
+                 data-background-size="200px"
+                 data-background-position="top"
+                 data-background-image="images/profile_square.png">
+        </section>
+    </div>
+</div>
+
+<script src="/reveal.js-3.9.2/js/reveal.js"></script>
+
+<script>
+    // More info about config & dependencies:
+    // - https://github.com/hakimel/reveal.js#configuration
+    // - https://github.com/hakimel/reveal.js#dependencies
+    Reveal.initialize({
+        controls: true,
+        progress: true,
+        history: true,
+        center: true,
+        hash: false,
+        theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+        transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
+        dependencies: [
+            { src: '/reveal.js-3.9.2/plugin/markdown/marked.js' },
+            { src: '/reveal.js-3.9.2/plugin/markdown/markdown.js' },
+            { src: '/reveal.js-3.9.2/plugin/highlight/highlight.js' },
+            { src: '/reveal.js-3.9.2/plugin/notes/notes.js', async: true }
+        ]
+    });
+</script>
+</body>
+</html>
